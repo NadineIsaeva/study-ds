@@ -1,4 +1,5 @@
 My solutions for the 6th programming exercise in Coursera ML with Andrew Ng
+
 Support vector machines: using a subset of [SpamAssassin Public Corpus](https://spamassassin.apache.org/old/publiccorpus/),
 build a spam classifier
 
@@ -23,6 +24,3 @@ Course link: https://www.coursera.org/learn/machine-learning/
 - extract features from emails
 - divide emails into train, cv and test sets
 - train SVM for binary classification
-
-## Links
-http://web.mit.edu/6.034/wwwbob/svm-notes-long-08.pdf
