@@ -1,0 +1,15 @@
+🤖️ Any process that extracts knowledge from the dataset should only be applied to training portion of dataset,
+so any CV should be 'outermost loop' in processing.
+
+🤖️ Requirement for estimators in Pipeline: all but the last step need to have a transform method, so they can produce a new
+representation of data to be used in the next step.
+
+🤖️ The last step of the Pipeline is required to have a fit method.
+
+🤖️ Pipelines - as a way to encapsulate all preprocessing steps in ML workflow into a single sklearn estimator.
+
+🤖️ Searching over preprocessing parameters together with model parameters is a very powerful strategy.
+
+👾️ Adding more parameters to grid_params exponentially increases number of models to be built.
+
+🤖️ It is possible to search over the actual steps being performed in the pipeline (not best practice).
