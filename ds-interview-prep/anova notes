@@ -1,0 +1,20 @@
+
+🔷️ Marginal mean for a level of a variable is the mean of the means of all levels of the other variable.
+
+🔷️ A main effect of an independent variable is the effect of the variable averaging over the levels of the other variable(s).
+
+🔷️ Simple effect of a variable is the effect of the variable at a single level of another variable.
+
+🔷️ Interaction - when the effect of one variable differs depending on the level of another variable.
+
+🌞️ Interaction - when the simple effects differ.
+
+ANOVA tests main effects and interactions for significance.
+
+🔷️ Degrees of freedom for a main effect is always equal to the number of levels of the variable minus one.
+
+🔷️ DF for an interaction is the product of the df's of variables in the interaction.
+
+🔷️ For Error the degrees of freedom is equal to the total number of observations minus the total number of groups.
+
+🌞️ Nonparallel lines (on interaction plot) indicate interaction. The significance test for the interaction determines whether it is justified to conclude that the lines in the population are not parallel. Lines do not have to cross for there to be an interaction.
